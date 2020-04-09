@@ -1,0 +1,35 @@
+#
+# Logging options:
+#
+--log-level 5
+--app-log-level 4
+
+#
+# Network settings:
+#
+--local-port 5060
+
+#
+# Media settings:
+#
+--srtp-keying 0
+--snd-auto-close 1
+#using default --clock-rate 16000
+#using default --quality 8
+#using default --ec-tail 200
+#using default --ilbc-mode 30
+--rtp-port 4000
+
+#
+# User agent:
+#
+--max-calls 4
+
+#
+# Buddies:
+#
+
+#
+# SIP extensions:
+#
+--use-timer 1
