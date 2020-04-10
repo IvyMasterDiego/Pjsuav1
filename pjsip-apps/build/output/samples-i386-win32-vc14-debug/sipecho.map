@@ -1,6 +1,6 @@
  sipecho
 
- Timestamp is 5e8f84b8 (Thu Apr  9 16:25:28 2020)
+ Timestamp is 5e907831 (Fri Apr 10 09:44:17 2020)
 
  Preferred load address is 00400000
 
@@ -24,13 +24,13 @@
  0002:00000e50 00022c68H .rdata                  DATA
  0002:00023ab8 00000448H .rdata$r                DATA
  0002:00023f00 0000012cH .rdata$sxdata           DATA
- 0002:0002402c 000001b4H .rdata$zzzdbg           DATA
- 0002:000241e0 00000104H .rtc$IAA                DATA
- 0002:000242e4 00000104H .rtc$IZZ                DATA
- 0002:000243e8 00000104H .rtc$TAA                DATA
- 0002:000244ec 00000104H .rtc$TZZ                DATA
- 0002:000245f0 00000f28H .xdata$x                DATA
- 0002:00025518 00000000H .edata                  DATA
+ 0002:0002402c 000001b8H .rdata$zzzdbg           DATA
+ 0002:000241e4 00000104H .rtc$IAA                DATA
+ 0002:000242e8 00000104H .rtc$IZZ                DATA
+ 0002:000243ec 00000104H .rtc$TAA                DATA
+ 0002:000244f0 00000108H .rtc$TZZ                DATA
+ 0002:000245f8 00000f28H .xdata$x                DATA
+ 0002:00025520 00000000H .edata                  DATA
  0003:00000000 000292e0H .data                   DATA
  0003:000292e0 00000248H .data$r                 DATA
  0003:00029528 000063ccH .bss                    DATA
@@ -5353,14 +5353,14 @@
  0002:00023db8       ??_R2bad_exception@std@@8  00531db8     libvcruntimed:frame.obj
  0002:00023dc4       ??_R1A@?0A@EA@bad_exception@std@@8 00531dc4     libvcruntimed:frame.obj
  0002:00023f00       ___safe_se_handler_table   00531f00     <linker-defined>
- 0002:000241e0       ___rtc_iaa                 005321e0     LIBCMTD:_initsect_.obj
- 0002:000242e4       ___rtc_izz                 005322e4     LIBCMTD:_initsect_.obj
- 0002:000243e8       ___rtc_taa                 005323e8     LIBCMTD:_initsect_.obj
- 0002:000244ec       ___rtc_tzz                 005324ec     LIBCMTD:_initsect_.obj
- 0002:00025230       __TI2?AVbad_exception@std@@ 00533230     libvcruntimed:frame.obj
- 0002:00025244       __CTA2?AVbad_exception@std@@ 00533244     libvcruntimed:frame.obj
- 0002:00025254       __CT??_R0?AVbad_exception@std@@@8??0bad_exception@std@@QAE@ABV01@@Z12 00533254     libvcruntimed:frame.obj
- 0002:00025274       __CT??_R0?AVexception@std@@@8??0exception@std@@QAE@ABV01@@Z12 00533274     libvcruntimed:frame.obj
+ 0002:000241e4       ___rtc_iaa                 005321e4     LIBCMTD:_initsect_.obj
+ 0002:000242e8       ___rtc_izz                 005322e8     LIBCMTD:_initsect_.obj
+ 0002:000243ec       ___rtc_taa                 005323ec     LIBCMTD:_initsect_.obj
+ 0002:000244f0       ___rtc_tzz                 005324f0     LIBCMTD:_initsect_.obj
+ 0002:00025238       __TI2?AVbad_exception@std@@ 00533238     libvcruntimed:frame.obj
+ 0002:0002524c       __CTA2?AVbad_exception@std@@ 0053324c     libvcruntimed:frame.obj
+ 0002:0002525c       __CT??_R0?AVbad_exception@std@@@8??0bad_exception@std@@QAE@ABV01@@Z12 0053325c     libvcruntimed:frame.obj
+ 0002:0002527c       __CT??_R0?AVexception@std@@@8??0exception@std@@QAE@ABV01@@Z12 0053327c     libvcruntimed:frame.obj
  0003:0000af20       _mod_stateful_util         0053ef20     pjsip-core-i386-win32-vc14-debug:sip_util_statefull.obj
  0003:00011484       _pjsip_include_allow_hdr_in_dlg 00545484     pjsip-core-i386-win32-vc14-debug:sip_dialog.obj
  0003:00014978       _PJSIP_SYN_ERR_EXCEPTION   00548978     pjsip-core-i386-win32-vc14-debug:sip_parser.obj

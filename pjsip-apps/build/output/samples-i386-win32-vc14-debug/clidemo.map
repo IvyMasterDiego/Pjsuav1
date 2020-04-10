@@ -1,6 +1,6 @@
  clidemo
 
- Timestamp is 5e8f846d (Thu Apr  9 16:24:13 2020)
+ Timestamp is 5e9077e0 (Fri Apr 10 09:42:56 2020)
 
  Preferred load address is 00400000
 
@@ -24,13 +24,13 @@
  0002:00000e50 00022f50H .rdata                  DATA
  0002:00023da0 00000450H .rdata$r                DATA
  0002:000241f0 0000012cH .rdata$sxdata           DATA
- 0002:0002431c 000001b4H .rdata$zzzdbg           DATA
- 0002:000244d0 00000104H .rtc$IAA                DATA
- 0002:000245d4 00000104H .rtc$IZZ                DATA
- 0002:000246d8 00000104H .rtc$TAA                DATA
- 0002:000247dc 00000104H .rtc$TZZ                DATA
- 0002:000248e0 00001024H .xdata$x                DATA
- 0002:00025904 00000000H .edata                  DATA
+ 0002:0002431c 000001b8H .rdata$zzzdbg           DATA
+ 0002:000244d4 00000104H .rtc$IAA                DATA
+ 0002:000245d8 00000104H .rtc$IZZ                DATA
+ 0002:000246dc 00000104H .rtc$TAA                DATA
+ 0002:000247e0 00000108H .rtc$TZZ                DATA
+ 0002:000248e8 00001024H .xdata$x                DATA
+ 0002:0002590c 00000000H .edata                  DATA
  0003:00000000 0000c8c0H .data                   DATA
  0003:0000c8c0 00000248H .data$r                 DATA
  0003:0000cb08 00001ba8H .bss                    DATA
@@ -4951,14 +4951,14 @@
  0002:000240a0       ??_R2bad_exception@std@@8  004e60a0     libvcruntimed:frame.obj
  0002:000240ac       ??_R1A@?0A@EA@bad_exception@std@@8 004e60ac     libvcruntimed:frame.obj
  0002:000241f0       ___safe_se_handler_table   004e61f0     <linker-defined>
- 0002:000244d0       ___rtc_iaa                 004e64d0     LIBCMTD:_initsect_.obj
- 0002:000245d4       ___rtc_izz                 004e65d4     LIBCMTD:_initsect_.obj
- 0002:000246d8       ___rtc_taa                 004e66d8     LIBCMTD:_initsect_.obj
- 0002:000247dc       ___rtc_tzz                 004e67dc     LIBCMTD:_initsect_.obj
- 0002:00025600       __TI2?AVbad_exception@std@@ 004e7600     libvcruntimed:frame.obj
- 0002:00025614       __CTA2?AVbad_exception@std@@ 004e7614     libvcruntimed:frame.obj
- 0002:00025624       __CT??_R0?AVbad_exception@std@@@8??0bad_exception@std@@QAE@ABV01@@Z12 004e7624     libvcruntimed:frame.obj
- 0002:00025644       __CT??_R0?AVexception@std@@@8??0exception@std@@QAE@ABV01@@Z12 004e7644     libvcruntimed:frame.obj
+ 0002:000244d4       ___rtc_iaa                 004e64d4     LIBCMTD:_initsect_.obj
+ 0002:000245d8       ___rtc_izz                 004e65d8     LIBCMTD:_initsect_.obj
+ 0002:000246dc       ___rtc_taa                 004e66dc     LIBCMTD:_initsect_.obj
+ 0002:000247e0       ___rtc_tzz                 004e67e0     LIBCMTD:_initsect_.obj
+ 0002:00025608       __TI2?AVbad_exception@std@@ 004e7608     libvcruntimed:frame.obj
+ 0002:0002561c       __CTA2?AVbad_exception@std@@ 004e761c     libvcruntimed:frame.obj
+ 0002:0002562c       __CT??_R0?AVbad_exception@std@@@8??0bad_exception@std@@QAE@ABV01@@Z12 004e762c     libvcruntimed:frame.obj
+ 0002:0002564c       __CT??_R0?AVexception@std@@@8??0exception@std@@QAE@ABV01@@Z12 004e764c     libvcruntimed:frame.obj
  0003:00001cec       _arg_type                  004e9cec     pjlib-util-i386-win32-vc14-debug:cli.obj
  0003:0000a608       _PJ_VERSION                004f2608     pjlib-i386-win32-vc14-debug:config.obj
  0003:0000b81c       _pj_pool_factory_default_policy 004f381c     pjlib-i386-win32-vc14-debug:pool_policy_malloc.obj
