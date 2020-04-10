@@ -343,3 +343,6 @@ healthchecksdb
 /lib
 /pjlib/lib
 /pjlib-util/lib
+
+*.tlog
+*.map
