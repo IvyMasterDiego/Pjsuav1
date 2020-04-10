@@ -342,5 +342,4 @@ healthchecksdb
 # Libs
 /lib
 /pjlib/lib
-
-*.tlog
+/pjlib-util/lib
